@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: Odin-bold;
+    src: url(/fonts/Norse-Bold.otf);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;;
+    display: flex;
+    margin: 0;
+}
+.left-side {
+    position: relative;
+    height: 100vh;
+    min-width: 30%;
+    display: flex;
+}
+#greenery {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.centered-text {
+    width: 100%;
+    height: 4rem;
+    background-color: rgba(17, 17, 17, .65);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Odin-bold; 
+    font-size: 4rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.pic-props {
+    color: white;
+    position: absolute;
+    bottom: 1%;
+    left: 40%;
+}
+
+.pic-props>a {
+    color: white;
+    text-decoration: underline;
+}
+
+.odin-logo {
+height: 4rem;
+}
+
+
+.right-side {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-width: 70%;
+    background-color: rgb(241, 241, 241);
+}
+.quote-para {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3em;
+}
+
+.main-form {
+    background-color: white;
+    box-shadow: 1px 3px 3px rgb(143, 139, 139);
+    flex: 1;
+}
+
+.main-form > h3 {
+    padding-left: 4em;
+}
+
+form {
+    flex-wrap: wrap;
+    padding-left: 2em;
+    gap: 3rem;
+    display: flex;
+    width: 600px;
+
+}
+
+.labels {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-section {
+    flex: 1;
+}
+
+.login-content {
+    padding-top: 3em;
+    padding-left: 2em;
+}
+
+.login-link {
+    padding-top: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    font-size: 1.1rem;
+}
+
+button {
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: #596D48;
+}
+
+button:hover {
+    background-color: white;
+    color: #596D48;
+    border-color: #596D48;
+    outline: 1px solid;
+}
+
+input {
+    height: 1.3rem;
+    width: 15rem;
+    border-radius: 4px;
+    border: 1px solid #e5e7eb;
+}
+
+input:focus {
+    opacity: 100%;
+    outline: 1px solid rgb(47, 170, 252);
+    box-shadow: 1px 3px 3px rgb(143, 139, 139);
+}
