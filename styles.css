@@ -133,6 +133,7 @@ button:hover {
     color: #596D48;
     border-color: #596D48;
     outline: 1px solid;
+    cursor: pointer;
 }
 
 input {
