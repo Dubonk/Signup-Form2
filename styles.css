@@ -13,8 +13,9 @@ body {
 .left-side {
     position: relative;
     height: 100vh;
-    min-width: 30%;
+    min-width: 35%;
     display: flex;
+    flex-direction: column;
 }
 #greenery {
     min-width: 100%;
@@ -37,15 +38,17 @@ body {
     justify-content: center;
 }
 .pic-props {
-    color: white;
     position: absolute;
-    bottom: 1%;
-    left: 40%;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.pic-props>a {
+.pic-props > a {
     color: white;
-    text-decoration: underline;
 }
 
 .odin-logo {
@@ -57,7 +60,7 @@ height: 4rem;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    min-width: 70%;
+    min-width: 65%;
     background-color: rgb(241, 241, 241);
 }
 .quote-para {
@@ -113,7 +116,7 @@ a {
 }
 
 a:hover {
-    font-size: 1.1rem;
+    text-decoration: underline;
 }
 
 button {
@@ -143,4 +146,17 @@ input:focus {
     opacity: 100%;
     outline: 1px solid rgb(47, 170, 252);
     box-shadow: 1px 3px 3px rgb(143, 139, 139);
+}
+
+.footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #596D48;
+}
+
+.footer > a { 
+    color: black;
 }
